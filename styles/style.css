@@ -1,1 +1,169 @@
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ /* font style */
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* HEADER  */
+header{
+    background-image: url('../images/Hero-bg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 698px;
+    background-size: cover;  
+    margin-bottom: 130px;
+    
+}
+
+/* NAVBAR */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0px 151px 158px 151px;  
+    /* margin: 0 auto; */
+    /* width: 1139px; */
+    /* height: 151px; */
+
+
+}
+
+nav ul li{
+    list-style: none;
+
+ }
+
+ nav ul li a{
+    list-style: none;
+ }
+
+ .nav-title{
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: black;
+
+ }
+
+ .paragraph{
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+ }
+
+
+
+.btn-primary{
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 12px 36px;
+    border: none;
+    text-align: center;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+.main-part{
+    margin: 200px 268px 152px 268px;
+}
+
+/* header end */
+
+/* main part start */
+ .bd-1{
+    display: flex;
+    margin: 123px 159px 123px 550px;
+    gap: 400px;
+    background-color: #FFFFFF;
+ }
+
+ .column-1{
+    /* height: 517px; */
+    width: 500px;
+    text-align: left;
+    align-items: center;
+    margin: 80px 0px;
+    
+ }
+
+ .title-1{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432; 
+    text-align: left;
+    margin-bottom: 20px;
+ }
+
+ .title-2{
+    font-size: 24px;
+    color:rgba(37, 36, 50, 0.5);
+    text-align: left;
+    margin-bottom: 20px;
+ }
+
+.img-1{
+    border-radius: 48px;
+}
+
+
+.bd-2{
+    
+    margin: 125px 675px 325px 550px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 200px 50px 200px;
+    
+ }
+
+ .bm-title{
+    margin-bottom: 40px;
+ }
+
+ .all-view{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+ .title-3{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+ }
+
+ .view-1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    
+
+ }
+
+ .title-4{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+ }
+
+ 
