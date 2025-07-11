@@ -102,10 +102,12 @@ nav ul li{
 /* BODY-01 */
  .bd-1{
     display: flex;
-    margin: 123px 559px 123px 550px;
-    gap: 400px;
+    margin: 123px 559px 123px 450px;
+    gap: 500px;
     background-color: #F5F8FF;
     border-radius: 15px;
+    padding: 50px 90px 30px 100px ;
+    
  }
 
  .column-1{
@@ -139,10 +141,10 @@ nav ul li{
 /* BODY-2 */
 .bd-2{
     
-    margin: 125px 675px 200px 550px;
+    margin: 125px 675px 130px 550px;
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
-    padding: 50px 200px 50px 200px;
+    padding: 65px 200px 70px 200px;
     
  }
 
@@ -181,7 +183,7 @@ nav ul li{
  /* BODY-3 */
 
  .body-3{
-    margin: 232px 600px 142px 600px;
+    margin: 180px 600px 200px 600px;
     /* background-color: aquamarine; */
     border-radius: 16px;
  }
@@ -190,7 +192,7 @@ nav ul li{
     display: flex;
     gap: 40px;
     text-align: center;
-    /* margin: 0px 800px 0px 300px; */
+    
  }
 
  .b-title{
@@ -202,14 +204,15 @@ nav ul li{
     font-size: 42px;
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
+    margin-bottom: 50px;
  }
 
  .part-1{
     text-align: left;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 14px;
-    padding: 40px 50px 30px 40px;
-    /* margin: 0px 10px 10px 10px ; */
+    padding: 40px 80px 40px 30px;
+    
     
  }
 
@@ -254,11 +257,11 @@ nav ul li{
  /* TOUCH SECTION */
 
  .body-4{
-    /* background-color: #F5F8FF; */
+    background-color: #F5F8FF;
     /* background-color: aqua; */
     display: flex;
-    margin: 130px 300px;
-    gap: 115px;
+    margin: 130px 300px 120px 350px;
+    gap: 90px;
     
  }
 
@@ -272,15 +275,16 @@ nav ul li{
 
  .form-part input[type="text"] , input[type="email"], textarea {
     border-radius: 10px;
-    height: 60px ;
+    height: 55px ;
     width: 600px;
     background-color: white;
     display: block;
     padding: 10px 20px;
-    margin-bottom: 24px;
+    margin-bottom:30px;
     border:none;
     font-size: 18px;
  }
+
 
  .touch-btn{
     width:640px;
